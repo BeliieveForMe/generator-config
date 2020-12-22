@@ -1,2 +1,2 @@
-# generator-config
-generator使用模板
+# generator使用模板
+
