@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.guodf.owner.generator.mapper.cmsCityInfoMapper">
+  <resultMap id="BaseResultMap" type="com.guodf.owner.generator.entities.cmsCityInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="city_id" jdbcType="INTEGER" property="cityId" />
+    <result column="city_name" jdbcType="VARCHAR" property="cityName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="province_id" jdbcType="INTEGER" property="provinceId" />
+    <result column="is_center" jdbcType="INTEGER" property="isCenter" />
+  </resultMap>
+</mapper>
